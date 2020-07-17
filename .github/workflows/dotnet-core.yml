@@ -29,5 +29,5 @@ jobs:
       uses: microsoft/setup-msbuild@v1
       
     - name : Build the Solution
-      run: msbuild ConsoleApp2.sln
+      run: msbuild ConsoleApp2.csproj
         
